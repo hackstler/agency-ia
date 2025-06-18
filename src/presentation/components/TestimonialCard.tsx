@@ -5,6 +5,7 @@ interface TestimonialCardProps {
   company: string;
 }
 
+
 export const TestimonialCard = ({ image, text, name, company }: TestimonialCardProps) => (
   <div className="flex h-full flex-1 flex-col gap-4 rounded-lg min-w-40">
     <div
